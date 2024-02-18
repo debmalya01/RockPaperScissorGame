@@ -3,20 +3,20 @@
 
 <head>
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="Styles/10-rockpaperscissor.css">
+    <link rel="stylesheet" href="10-rockpaperscissor.css">
 </head>
 
 <body>
     <p class="heading">Rock Paper Scissors </p>
     <button class="move-button" onClick="
             playgame('rock');
-        "><img src="rock-paper-scissor/rock-emoji.png" class="move-icon"></button>
+        "><img src="rock-emoji.png" class="move-icon"></button>
     <button class="move-button" onClick="
             playgame('paper');
-        "><img src="rock-paper-scissor/paper-emoji.png" class="move-icon"></button>
+        "><img src="paper-emoji.png" class="move-icon"></button>
     <button class="move-button" onClick="
             playgame('scissor');
-        "><img src="rock-paper-scissor/scissor-emoji.png" class="move-icon"></button>
+        "><img src="scissor-emoji.png" class="move-icon"></button>
 
     <p class="js-result result"></p>
     <p class="js-moves moves"></p>
@@ -29,7 +29,7 @@
         localStorage.removeItem('score');
         updateScoreElement();
     ">Reset Score</button>
-    <script src="JavaScript/10-rockpaperscissor.js"></script>
+    <script src="10-rockpaperscissor.js"></script>
 </body>
 
 </html>
